@@ -6,7 +6,10 @@ class Person
   
   def initialize (name)
     @name = name
-    NAME << self  
+    if @name
+      @name = name
+    else
+  end
   end
   
   
