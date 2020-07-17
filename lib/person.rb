@@ -55,14 +55,14 @@ class Person
     if topic = "politics"
       self.happiness -= 2
       starter.happiness -= 2
-      puts "blah blah partisan blah lobbyist"
+      p "blah blah partisan blah lobbyist"
     elsif 
       topic = "weather"
       self.happiness  += 1
       starter.happiness += 1
-      puts "blah blah sun blah rain"
+      p "blah blah sun blah rain"
     else 
-      puts "blah blah blah blah blah"
+      p "blah blah blah blah blah"
     end
   end
 end
