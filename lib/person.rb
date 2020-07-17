@@ -56,6 +56,12 @@ class Person
       self.happiness -= 2
       starter.happiness -= 2
       p "blah blah partisan blah lobbyist"
+    elsif topic = "weather"
+      self.happiness  += 2
+      starter.happiness += 2
+      p "blah blah sun blah rain"
+    elsif 
+      p "blah blah blah blah blah"
     end
   end
 end
