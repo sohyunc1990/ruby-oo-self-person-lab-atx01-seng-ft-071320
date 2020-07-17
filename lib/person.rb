@@ -3,13 +3,15 @@ require'pry'
 class Person
   attr_reader :name
   attr_accessor :bank_account, :happiness, :hygiene, :salary
- 
+  NAME = []
 
   def initialize (name)
     @name = name
     @bank_account = 25
     @happiness = 8
     @hygiene = 8
+    NAME << self
+    
   end
   def happiness
     @happiness = 10 if @happiness > 10
