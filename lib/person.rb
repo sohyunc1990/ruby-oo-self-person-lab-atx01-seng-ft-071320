@@ -8,6 +8,7 @@ class Person
     @name = name
     @bank_account = bank_account
     @happiness = happiness
+    @happiness = 
   end
   
   
