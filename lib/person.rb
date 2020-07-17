@@ -5,10 +5,11 @@ class Person
   attr_accessor :bank_account, :happiness
  
 
-  def initialize (name, bank_account = 25, happiness = 8)
+  def initialize (name)
     @name = name
     @bank_account = 25
     @happiness = 8
+    @hygiene = 8
   end
   def happiness
     @happiness = 10 if @happiness > 10
