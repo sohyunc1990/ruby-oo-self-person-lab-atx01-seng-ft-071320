@@ -18,8 +18,8 @@ class Person
   end
    def hygiene
     @hygiene = 10 if @hygiene > 10
-    @happiness = 0 if @happiness < 0
-    @happiness
+    @hygiene = 0 if @hygiene < 0
+    @hygiene
   end
   
   
