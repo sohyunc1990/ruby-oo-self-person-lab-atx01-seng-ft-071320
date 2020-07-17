@@ -13,6 +13,7 @@ class Person
   def happiness
     @happiness = 10 if @happiness > 10
     @happiness = 0 if @happiness < 0
+    @happiness
   end
   
   
