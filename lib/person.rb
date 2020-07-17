@@ -10,7 +10,8 @@ class Person
     @happiness = happiness
   end
   def happiness
-    @happiness(min=0, m)
+    @happiness(min=0, max=10)
+  end
   
   
   
