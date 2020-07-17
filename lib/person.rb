@@ -52,12 +52,12 @@ class Person
     p "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
   def start_conversation (starter, topic)
-    if topic = "politics"
+    if topic == "politics"
       self.happiness -= 2
       starter.happiness -= 2
        "blah blah partisan blah lobbyist"
     elsif 
-      topic = "weather"
+      topic == "weather"
       self.happiness  += 1
       starter.happiness += 1
        "blah blah sun blah rain"
