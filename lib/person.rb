@@ -51,5 +51,9 @@ class Person
     friend.happiness += 3
     p "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
+  def start_conversation (starter, topic)
+    if topic = politics
+      p "blah blah partisan blah lobbyist"
+    end
 end
   
