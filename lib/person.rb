@@ -1,16 +1,12 @@
 # your code goes here
 require'pry'
 class Person
-  attr_accessor :name
+  attr_reader :name
   NAME = []
   
   def initialize (name)
     @name = name
-    if @name
-      @name = name
-    else
-  end
-  NAME << name
+   
   end
   
   
