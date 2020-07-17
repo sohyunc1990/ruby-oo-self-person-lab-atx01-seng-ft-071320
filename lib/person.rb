@@ -42,7 +42,7 @@ class Person
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
   def work_out
-    self.work_out -= 3
+    self.hygiene -= 3
      p "♪ another one bites the dust ♫"
   end
 end
