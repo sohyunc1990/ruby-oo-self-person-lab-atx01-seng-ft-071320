@@ -7,6 +7,9 @@ class Person
   def initialize (name, bank_account = 25, happiness = 8)
     @name = name
     @bank_account = bank_account
+    @happiness = happiness
+  end
+  def happiness
     @happiness = happiness(0..10)
   end
   
