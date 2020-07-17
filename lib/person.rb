@@ -9,7 +9,7 @@ class Person
     @name = name
     @bank_account = bank_account
     @happiness = happiness
-    HAPPINESS << happiness
+    HAPPINESS = happiness
   end
   
   
