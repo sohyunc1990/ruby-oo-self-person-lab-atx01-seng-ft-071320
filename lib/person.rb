@@ -24,7 +24,8 @@ class Person
   def happy?
     if @happiness > 7
       true
-    elsif @
+    else false
+  end
   
 
 
