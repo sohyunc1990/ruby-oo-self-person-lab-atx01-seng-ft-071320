@@ -60,7 +60,7 @@ class Person
       self.happiness  += 2
       starter.happiness += 2
       p "blah blah sun blah rain"
-    elsif 
+    else 
       p "blah blah blah blah blah"
     end
   end
