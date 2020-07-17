@@ -22,10 +22,8 @@ class Person
     @hygiene
   end
   def happy?
-    if @happiness > 7
-      true
-    else 
-      false
+    true if @happiness > 7
+    else false
     end
   end
 
