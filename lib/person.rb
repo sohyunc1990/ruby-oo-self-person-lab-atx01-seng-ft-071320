@@ -10,6 +10,7 @@ class Person
       @name = name
     else
   end
+  NAME << name
   end
   
   
