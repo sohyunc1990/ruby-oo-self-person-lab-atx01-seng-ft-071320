@@ -2,7 +2,7 @@
 require'pry'
 class Person
   attr_reader :name
-  attr_accessor :bank_account, :happiness, :hygiene
+  attr_accessor :bank_account, :happiness, :hygiene, :salary
  
 
   def initialize (name)
@@ -34,7 +34,9 @@ class Person
     end
   end
   def get_paid (salary)
-    
+    @salary = salary
+    @bank_account += salary
+  end
 
 
 
