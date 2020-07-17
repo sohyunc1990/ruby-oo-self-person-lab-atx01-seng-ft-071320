@@ -52,7 +52,7 @@ class Person
     p "Hi #{friend.name}! It's #{self.name}. How are you?"
   end
   def start_conversation (starter, topic)
-    if topic = politics
+    if topic = "politics"
       p "blah blah partisan blah lobbyist"
     end
   end
