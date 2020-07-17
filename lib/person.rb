@@ -9,6 +9,8 @@ class Person
     @bank_account = bank_account
     @happiness = happiness
   end
+  def happiness
+    @happiness
   
   
   
