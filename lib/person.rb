@@ -43,7 +43,7 @@ class Person
   end
   def work_out
     self.work_out -= 3
-    
-
+     p "♪ another one bites the dust ♫"
+  end
 end
   
