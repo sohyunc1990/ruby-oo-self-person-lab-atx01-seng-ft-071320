@@ -55,5 +55,6 @@ class Person
     if topic = politics
       p "blah blah partisan blah lobbyist"
     end
+  end
 end
   
