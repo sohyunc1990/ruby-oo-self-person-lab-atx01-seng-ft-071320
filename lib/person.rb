@@ -39,8 +39,7 @@ class Person
     p "all about the benjamins"
   end
   def take_bath
-    take_bath = 4
-    @hygiene -= take_bath
+    @hygiene -= 4
     p "♪ Rub-a-dub just relaxing in the tub ♫"
   end
 
