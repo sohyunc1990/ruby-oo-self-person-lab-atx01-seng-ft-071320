@@ -26,8 +26,8 @@ class Person
       true
     else 
       false
+    end
   end
-  
 
 
 end
